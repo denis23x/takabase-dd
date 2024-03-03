@@ -1,0 +1,21 @@
+**Повторение Dev релиза** так же привязаться к кастомным доменам, более тонкая настройка Firebase
+
+- Хостинг
+  - [ ] Переехать от вонючек https://namecheap.com
+  - [ ] Использовать только голый домен
+  - [ ] Редирект www.takabase.com -> takabase.com
+  - [x] https://takabase.com
+    - https://takabase-prod.web.app
+  - [ ] https://api.takabase.com
+    - https://takabase-prod-api.web.app
+  - [ ] https://ai.takabase.com
+    - https://takabase-prod-ai.web.app
+  - [ ] https://sharp.takabase.com
+    - https://takabase-prod-sharp.web.app
+- **Firebase**
+  - [x] Добавить домен takabase.com в разделе **Authorized domains**
+  - [ ] Для шаблонов писем авторизации кастомный **redirect_url**
+- **Google**
+  - [ ] Search console
+  - [ ] Adsense
+  - [ ] Application Default Credentials

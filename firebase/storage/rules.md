@@ -1,0 +1,16 @@
+### Storage rules
+
+- [rules](https://firebase.google.com/docs/storage/security/rules-conditions)
+
+``` cel
+rules_version = '2';
+
+service firebase.storage {
+  match /b/{bucket}/o {
+    match /{allPaths=**} {
+      allow read;
+      allow write: if request.auth != null;
+    }
+  }
+}
+```

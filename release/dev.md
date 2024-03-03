@@ -1,0 +1,44 @@
+- **Новый проект в Firebase**
+  - Создать приложение
+    - [x] Связать с хостингами
+    - [x] Объявить раздел функции
+    - [x] Сменить тарифный план
+  - Обновить файлы конфигурации в проектах
+    - [x] Добавить команды для деплоя
+  - Создать хостинг и выполнить деплой
+    - [x] https://takabase-dev.web.app
+    - [x] https://takabase-dev-api.web.app
+    - [x] https://takabase-dev-ai.web.app
+    - [x] https://takabase-dev-sharp.web.app
+  - Установить и настроить расширения
+    - [x] Trigger Email from Firestore
+  - Создать и настроить **Storage**
+    - [x] Настроить права
+    - [x] Залить статику для сидов
+    - [x] Установить CORS
+    - [ ]  Настроить Object Life Cycle
+      - [x] **/temp**
+      - [x] Custom-Time
+      - [x] https://cloud.google.com/storage/docs/lifecycle
+    - [ ] Для бекенда
+      - [x] Application Default Credentials https://cloud.google.com/docs/authentication/application-default-credentials
+  - Создать и настроить **Firestore**
+    - [x] Настроить права на базы
+    - [x] Native Mode
+    - [x] User
+    - [x] Mailer
+  - Создать и настроить **App Check**
+    - [x] reCAPTCHA Enterprise API
+      - [x] https://cloud.google.com/recaptcha-enterprise/docs/create-key-website?hl=en&authuser=0
+    - [x] Enforce Storage
+    - [x] Enforce Firestore
+  - Дополнительные заморочки
+    - [x] Настроить авторизацию
+      - [x] Для шаблонов писем авторизации кастомный **redirect_url**
+    - [x] Добавить права на функции (allUsers === Public Invoker)
+      - [x] https://mehmetkose.com.tr/posts/how-to-solve-the-firebase-error-forbidden-your-client-does-not-have-permission-to-get-url/
+- **Новый проект в TiDB Cloud**
+  - [x] Создать кластер
+    - [x] Применить миграции
+    - [x] Применить сиды
+- [ ] https://firebase.google.com/support/guides/launch-checklist
