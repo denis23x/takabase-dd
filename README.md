@@ -5,7 +5,7 @@ Takabase Design Document
 Design
 
 - [husky](design/husky.md)
-- [temp-image](design/temp-image.md)
+- [image-temp](design/image-temp.md)
 
 ___
 
