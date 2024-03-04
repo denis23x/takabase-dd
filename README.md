@@ -19,7 +19,7 @@ Firebase
   - [rules](firebase/firestore/rules.md)
 - Storage
   - [rules](firebase/storage/rules.md)
-- [CLI](firebase/cli.md)
+- [install](firebase/install.md)
 
 ___
 
