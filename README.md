@@ -13,9 +13,9 @@ Firebase
 
 - Firestore
   - CORS
-    - [dev](firebase/firestore/cors/dev.md)
-    - [local](firebase/firestore/cors/local.md)
-    - [prod](firebase/firestore/cors/prod.md)
+    - [dev](firebase/storage/cors/dev.md)
+    - [local](firebase/storage/cors/local.md)
+    - [prod](firebase/storage/cors/prod.md)
   - [rules](firebase/firestore/rules.md)
 - Storage
   - [rules](firebase/storage/rules.md)

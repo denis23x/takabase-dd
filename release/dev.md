@@ -13,20 +13,17 @@
   - Установить и настроить расширения
     - [x] Trigger Email from Firestore
   - Создать и настроить **Storage**
-    - [x] Настроить права
-    - [x] Залить статику для сидов
-    - [x] Установить CORS
-    - [ ]  Настроить Object Life Cycle
-      - [x] **/temp**
-      - [x] Custom-Time
-      - [x] https://cloud.google.com/storage/docs/lifecycle
-    - [ ] Для бекенда
-      - [x] Application Default Credentials https://cloud.google.com/docs/authentication/application-default-credentials
+    - [x] [Настроить права](../firebase/storage/rules.md)
+    - [x] [Залить seed статику](../firebase/storage/seed.md)
+    - [x] [Установить CORS](../firebase/storage/cors/dev.md)
+    - [ ] [Настроить Object Lifecycle Management](../firebase/storage/object-lifecycle-management.md)
+    - [ ] [Настроить Application Default Credentials](../firebase/application-default-credentials.md)
   - Создать и настроить **Firestore**
-    - [x] Настроить права на базы
+    - [x] [Настроить права](../firebase/firestore/rules.md)
     - [x] Native Mode
-    - [x] User
-    - [x] Mailer
+    - [x] Создать разделы
+      - [x] users
+      - [x] mailer
   - Создать и настроить **App Check**
     - [x] reCAPTCHA Enterprise API
       - [x] https://cloud.google.com/recaptcha-enterprise/docs/create-key-website?hl=en&authuser=0
