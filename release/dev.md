@@ -3,15 +3,19 @@
     - [x] Связать с хостингами
     - [x] Объявить раздел функции
     - [x] Сменить тарифный план
-  - Обновить файлы конфигурации в проектах
-    - [x] Добавить команды для деплоя
+  - Создать команды для деплоя
+    - [x] [firebase-deploy.js](/design/firebase-deploy.md)
   - Создать хостинг и выполнить деплой
-    - [x] https://takabase-dev.web.app
-    - [x] https://takabase-dev-api.web.app
-    - [x] https://takabase-dev-ai.web.app
-    - [x] https://takabase-dev-sharp.web.app
+    - Angular SSR приложение
+      - [x] [takabase-dev](https://takabase-dev.web.app)
+    - Fastify приложение для MySQL
+      - [x] [takabase-dev-api](https://takabase-dev-api.web.app)
+    - Fastify приложение (микросервис) для модерации текста и изображений
+      - [x] [takabase-dev-ai](https://takabase-dev-ai.web.app)
+    - Fastify приложение (микросервис) для работы с изображениями
+      - [x] [takabase-dev-sharp](https://takabase-dev-sharp.web.app)
   - Установить и настроить расширения
-    - [x] Trigger Email from Firestore
+    - [x] [Trigger Email from Firestore](https://extensions.dev/extensions/firebase/firestore-send-email)
   - Создать и настроить **Storage**
     - [x] [Настроить права](../firebase/storage/rules.md)
     - [x] [Залить seed статику](../firebase/storage/seed.md)
